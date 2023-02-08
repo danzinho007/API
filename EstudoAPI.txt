@@ -1,0 +1,10 @@
+API = Aplication Programing Interface
+Conjunto de Rotinas e Padrões que são estabelecidos por um Software
+
+Fluxo: Requisição e Resposta
+FrontEnd : Recebe os dados e Processa
+Resposta : Estrutura de Dados ( xml ou jason )
+
+Localhost : PC como sendo servidor virtual
+3000 : É a porta que o nosso servidor está escutando
+/ : Tudo que fica depois da barra, vai ser as rotas
