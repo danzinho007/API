@@ -1,10 +1,56 @@
 API = Aplication Programing Interface
-Conjunto de Rotinas e Padr�es que s�o estabelecidos por um Software
+Interface de Programação de Aplicações
+Conjunto de Rotinas e Padrões que sao estabelecidos por um Software
 
-Fluxo: Requisi��o e Resposta
+Fluxo: Requiscaoo e Resposta
 FrontEnd : Recebe os dados e Processa
 Resposta : Estrutura de Dados ( xml ou jason )
 
 Localhost : PC como sendo servidor virtual
-3000 : � a porta que o nosso servidor est� escutando
+3000 : � a porta que o nosso servidor est� escutando
 / : Tudo que fica depois da barra, vai ser as rotas
+
+Métodos HTTP :
+
+GET 
+Retornar dados do servidor
+POST
+Criar novos recuros no servidor
+PUT / PATCH
+Atualizar recursos existentes
+DELETE
+Remove um recuro do servidor
+
+Códigos de Status / Status Code :
+
+200 : OK
+201 : Criado
+203 : Informação Não Autorizada
+204 : Sem conteúdo
+400 : Requisição Ruim
+401 : Não Autorizado
+403 : Proibido
+404 : Nada Encontrado
+409 : Conflito
+500 : Erro de Server da Internet
+501 : Não implementado
+502 : Ponte Ruim ( Bad Gateway )
+503 : Serviço Indisponível 
+504 : Fora de Conexão
+599 : Fora de Rede ( Network timeout )
+
+Formato de Arquivo da API : 
+JSON 
+
+Exemplos de APIs :
+Acessar banco de dados
+Cálculos
+Validação
+Google Maps 
+Correios
+
+Algumas APIs precisam de Chave Credencial
+Famosa : Chave Key
+
+API pro Discord 
+https://www.youtube.com/watch?v=3sJCXoxgbHQ&list=WL&index=33
