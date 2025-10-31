@@ -1,0 +1,17 @@
+Códigos de Status / Status Code :
+
+200 : OK
+201 : Criado
+203 : Informação Não Autorizada
+204 : Sem conteúdo
+400 : Requisição Ruim
+401 : Não Autorizado
+403 : Proibido
+404 : Nada Encontrado
+409 : Conflito
+500 : Erro de Server da Internet
+501 : Não implementado
+502 : Ponte Ruim ( Bad Gateway )
+503 : Serviço Indisponível 
+504 : Fora de Conexão
+599 : Fora de Rede ( Network timeout )
